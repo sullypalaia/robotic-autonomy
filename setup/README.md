@@ -74,6 +74,7 @@ Now, devcontainers are the integration of a Docker container with your editor (l
   You can `clone` this project to get a ready-made Ubuntu environment.
 
 
+#### [GUI setup](https://github.com/ariarobotics/robotic-autonomy/tree/main/setup)
 
 
 ---
@@ -105,6 +106,7 @@ If so, Congratulazioni, You now hve a real OS instead of whatever your had befor
 
 - First, install Python using `apt install` command
   - Write a Hello World python script and run it.
+  - Run the [demo script](./DevContainer.md#test-python-script) 
 
 > [!CAUTION]
 > The answers are provided in `commands.sh.txt`

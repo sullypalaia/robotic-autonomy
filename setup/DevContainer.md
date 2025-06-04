@@ -94,3 +94,13 @@ RUN set -eux; \
 USER $USERNAME
 WORKDIR /home/$USERNAME
 ```
+
+
+### Test Python Script
+``` python
+import platform
+
+print("Operating System:", platform.system())
+print("OS Version:", platform.version())
+print("OS Release:", platform.release())
+```
