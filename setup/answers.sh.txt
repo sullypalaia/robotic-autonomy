@@ -1,0 +1,41 @@
+# Set your favorite Chernobyl character
+CHARACTER="legasov"
+
+# Step 1: Make the folder structure
+mkdir -p disaster_drill/$CHARACTER
+cd disaster_drill/$CHARACTER
+
+# Step 2: Generate quote and write to quote.txt
+fortune | tee quote.txt
+
+# Step 3: Append separator and extra info
+echo "---" >> quote.txt
+date >> quote.txt
+echo "$USER@$HOSTNAME" >> quote.txt
+
+# 3.5 Sanity check
+cat quote.txt
+
+# Step 4: Go up one directory
+cd ..
+
+# Step 5: Compress the folder
+tar -czf meltdown.tar.gz "$CHARACTER"
+
+# Step 6: Create a hash
+sha256sum meltdown.tar.gz > hash.txt
+
+# Step 7: Move files to parent folder
+mv meltdown.tar.gz hash.txt ../
+
+# Step 8: Go back to root
+cd ../
+
+# Step 9: Countdown
+for i in {5..1}; do
+  echo "$i"
+  sleep 1
+done
+
+# Step 10: Delete the folder
+rm -rf disaster_drill

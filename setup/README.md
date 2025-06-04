@@ -105,7 +105,9 @@ If so, Congratulazioni, You now have a real OS instead of whatever your had befo
 - First, install Python using `apt install` command
   - Write a Hello World python script and run it.
 
-> Remember you are very much allowed to use any kind of generative AI, but the purpose here is to know some random commands, so do it line by line to understand what each one does. Or think about the planet and just look them up.
+> [!CAUTION]
+> The answers are provided in `commands.sh.txt`
+> You are allowed to use any kind of generative AI or just open the answers, but the purpose here is to learn some random commands. Try running them line by line to understand what each one does. Or, if you prefer, just look them up as needed.
 
 
 ---
