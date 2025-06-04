@@ -19,7 +19,7 @@ The ultimate goal at this stage is to:
 
 How you choose to get it done is no concern of mine, so just treat this document as a mere set of suggestions, not strict instructions.
 
-You can probably get everything set up in under an hour or two, but take a moment to read some of the text along the way. It's good for your brain and you'll pick up some random knowledge and come out a slightly more informed human.
+You can probably get everything set up in under an hour or two, but take a moment to read some of the text along the way. It's good for your brain and you'll pick up some random knwledge and come out a slightly more informed human.
 
 
 ## Tools
@@ -35,12 +35,13 @@ A version control system so you can keep track of the history of the code you wr
 **Exercise:**  
 - Install [Git](https://git-scm.com/downloads) based on your OS.  
 - Clone this repo and open it locally and continue reading it locally. That's it.
+- Bonus point (very optional): There are 5 spelling errors in this document. If you find any, make a pull request on GitHub.
 
 ---
 ### VS Code  
 An editor for writing text that has meaning, or so we think.
 - Yes, it's from evil Microsoft. And fun fact: the version you download isn't actually fully open source.
-- You can use other editors, but VS Code works very smoothly with Docker and devcontainers. So... just use it.
+- You can use other editors, but VS Code works very smothly with Docker and devcontainers. So... just use it.
 
 **Exercise:**  
 - Install it [Download](https://code.visualstudio.com/)
@@ -79,7 +80,7 @@ Now, devcontainers are the integration of a Docker container with your editor (l
 
 ### Linux  
 Now I assume everyone has a devcontainer with Ubuntu set up.  
-If so, Congratulazioni, You now have a real OS instead of whatever your had before. Let's learn some Linux.
+If so, Congratulazioni, You now hve a real OS instead of whatever your had before. Let's learn some Linux.
 
 > [!NOTE]  
 > You need to run all these command in the docker container you just made. [How?](https://stackoverflow.com/questions/69860182/how-to-detect-if-the-current-script-is-running-in-a-docker-build)
@@ -93,7 +94,7 @@ If so, Congratulazioni, You now have a real OS instead of whatever your had befo
   - Make a folder called `disaster_drill` with a subfolder named after your favorite *Chernobyl* character (e.g. `legasov`).
   - Change directory into that subfolder.
   - Use `fortune` with `tee` to generate a quote, display it, and write it into `quote.txt`.
-  - Add a separator (`---`), then append the current date using `date >>`, and your username and hostname using `echo $USER@$HOSTNAME >>`.
+  - Add a separator (`---`), then append the curent date using `date >>`, and your username and hostname using `echo $USER@$HOSTNAME >>`.
   - Go up one directory.
   - Compress the folder using `tar -czf`.
   - Create a hash using `sha256sum` and save it to `hash.txt`.
@@ -145,5 +146,5 @@ But even better, there is something called a Dockerfile, which is a recepie for 
 ---
 
 ### Conclusion  
-There you have it, you've successfully set up a Linux-powered environment and are ready to start writing ROS packages.  
+There you have it, you've successfully set up a Linux-powered environmment and are ready to start writing ROS packages.  
 If you've finished everything above, you can now move on to doing actual stuff.
