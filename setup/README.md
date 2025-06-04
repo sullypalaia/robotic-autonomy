@@ -144,7 +144,7 @@ But even better, there is something called a Dockerfile, which is a recepie for 
   ros2 run turtlesim turtlesim_node
   ros2 run turtlesim turtle_teleop_key
   ```
-
+    - If the program raises an error about display connections, refer to [How to set up a Devcontainer](https://github.com/ariarobotics/robotic-mapping/blob/main/resources/how%20to%20set%20up%20a%20devcontainer.md) again. 
 ---
 
 ### Conclusion  
