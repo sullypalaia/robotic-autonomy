@@ -2,12 +2,14 @@
 
 Follow these steps precisely:
 
+- Disconnect from any containers you are connected to (in case you were connected during another tutorial)
 - Create a folder for your project (let's call it `enzo`).
 - Inside `enzo`, create a subfolder named `.devcontainer`.
+- Create two new files titled "devcontainer.json" and "Dockerfile" under ".devcontainer".
 - Copy the contents of the `Dockerfile` below into `.devcontainer/Dockerfile`. This is the recipe for your custom development environment (your new OS).
 - Copy the contents of `devcontainer.json` into `.devcontainer/devcontainer.json`.  This is the recipe for how VSCode interfaces with your container.
 - Open the root folder (`enzo`) in VS Code. *(Press `Ctrl + K`, then `Ctrl + O` to open a folder.)*
-- Press `Ctrl + Shift + P` and select "Dev Containers: Reopen in Container" *(Note: this may use around 2–3 GB of storage.)* *(If you can't find this option it means you don't have the extension installed)*
+- Press `Ctrl + Shift + P` and select "Dev Containers: Reopen in Container" *(Note: this may use around 2–3 GB of storage.)* *(If you can't find this option it means you don't have the extension installed, or you are still connected to a container -- see step 1)*
 - Wait. A lot... *(for me it took 550900ms)*
 - Glückwunsch, You now have everything set up.
 
