@@ -8,7 +8,7 @@
 - Copy this file into a file named `group-{i}.md` 
 - Fill this form appropriately
 - Commit and push the information into your forked repo
-- Make a pull request
+- Make a pull request (Do this only once, at the end of the day right before 4PM meeting)
 
 ---
 
