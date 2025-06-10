@@ -24,16 +24,16 @@ You can find all the tutorials here: https://docs.ros.org/en/humble/Tutorials.ht
 ## Beginner: CLI tools  
 [Go to CLI Tools Tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools.html)
 
-- [ ] Configuring environment  
-- [ ] Using turtlesim, ros2, and rqt  
-- [ ] Understanding nodes  
-- [ ] Understanding topics  
-- [ ] Understanding services  
-- [ ] Understanding parameters  
-- [ ] Understanding actions  
-- [ ] Using rqt_console to view logs  
-- [ ] Launching nodes  
-- [ ] Recording and playing back data  
+- [x] Configuring environment  
+- [x] Using turtlesim, ros2, and rqt  
+- [] Understanding nodes  
+- [] Understanding topics  
+- [] Understanding services  
+- [] Understanding parameters  
+- [] Understanding actions  
+- [] Using rqt_console to view logs  
+- [] Launching nodes  
+- [] Recording and playing back data  
 
 ---
 
