@@ -26,14 +26,14 @@ You can find all the tutorials here: https://docs.ros.org/en/humble/Tutorials.ht
 
 - [x] Configuring environment  
 - [x] Using turtlesim, ros2, and rqt  
-- [] Understanding nodes  
-- [] Understanding topics  
-- [] Understanding services  
-- [] Understanding parameters  
-- [] Understanding actions  
-- [] Using rqt_console to view logs  
-- [] Launching nodes  
-- [] Recording and playing back data  
+- [x] Understanding nodes  
+- [x] Understanding topics  
+- [x] Understanding services  
+- [x] Understanding parameters  
+- [x] Understanding actions  
+- [x] Using rqt_console to view logs  
+- [x] Launching nodes  
+- [x] Recording and playing back data  
 
 ---
 
